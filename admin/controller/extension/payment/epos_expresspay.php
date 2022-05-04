@@ -43,7 +43,7 @@ class ControllerExtensionPaymenteposExpressPay extends Controller {
 		$data['pending_status']     = $this->language->get('pending_status');
 		$data['cancel_status']	  = $this->language->get('cancel_status');
 		$data['processing_status']  = $this->language->get('processing_status');
-		$data['handler_url']  	  = str_replace('/admin', '', HTTPS_SERVER . 'index.php?route=payment/epos_expresspay/notify');
+		$data['handler_url']  	  = str_replace('/admin', '', HTTPS_SERVER . 'index.php?route=extension/payment/epos_expresspay/notify');
 		$data['handler_label']  	  = $this->language->get('handler_label');
 		$data['test_mode_label']  	  = $this->language->get('test_mode_label');
 		$data['name_editable_label']  	  = $this->language->get('name_editable_label');
